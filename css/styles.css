@@ -1,0 +1,51 @@
+/*
+ Student Name: Aaron Cortina
+ File Name: style.css
+ Date: 04/04/2023
+*/
+
+/* CSS Reset */
+  body, header, main, footer, section, label, input, textarea, img {
+  margin: 0;
+  padding: 0;
+  border: 0;
+ }
+ 
+ /*styles for main*/
+  main {
+    padding: 2%;
+  /*font-family: Geneva, Arial, sans-serif;*/
+    overflow: auto;
+ }
+ 
+ /* Style rules for header */
+ header {
+	margin-top: 0.2em;
+	/*text-align: center;*/
+	font-size: 2em;
+	font-weight: bold;
+}
+ 
+  section {
+	 background-color: #eaeaea;
+	 font-family: Arial, sans-serif;
+	 padding: 10px;
+ }
+ 
+ /* Style rule for images */
+img { 
+   margin-top: 1.5em;
+   max-width: 100%;
+   display: flex;
+   background-color: #e3eaf8;
+ }
+ 
+  /*Style rule for button*/
+  #hidden{
+  margin-left: 20%;  
+}
+
+#placeholder {
+  display: none;
+}
+

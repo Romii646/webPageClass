@@ -1,0 +1,39 @@
+<!-- Aaron cortina -->
+<!-- created: 04/04/23 -->
+<!-- updated: 04/04/23 -->
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title>Module 10 Creating an interactive webpage</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/styles.css"/>
+</head>
+<body>
+   <header>
+      <h1>Creating an interactive webpage.</h1>
+   </header>
+   <section>
+      <label for="myName">Please enter your name: </label>
+      <input type="text" name="myName"  id="myName">
+      <button onclick="content()">Enter</button>
+      <p id="new"></p>
+   </section>
+   <section>
+      <label for="age">Please enter your age: </label>
+      <input type="number" name="age" id="age">
+      <button onclick="verAge()">Enter</button>
+	  <p id="vAge"></p>
+	  <button id="hidden">Show picture</button>
+	  <figure id="placeholder">
+	     <img src="image" alt="placeholder" id="image">
+         <figcaption></figcaption>
+		 <button id="hidden" onclick="remove()">Remove Picture</button>
+	  </figure>
+   </section>
+   <a href="#" onMouseOver="alert('Thanks for visiting')" style="margin-left: 100px; font-size: 1em;">Link it</a>
+   <script src="scripts/scripts.js"></script>
+</body>
+<footer style="padding-top: 20px;">
+   Created by: Aaron Cortina
+</footer>
+</html>
